@@ -7,3 +7,24 @@ body {
     font-family: 'Archivo', sans-serif;
     font-family: 'Judson', serif;
 }
+
+/*Flexbox style*/
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.OneContainer{
+    width: 330px;
+    display: flex;
+   flex-flow: column;
+   justify-content: center;
+}
+.OneContainer .image, .OneContainer .header h3{
+    display: flex;
+    justify-content: center;
+}
+.OneContainer .header p.text{
+   text-align: center;
+}
