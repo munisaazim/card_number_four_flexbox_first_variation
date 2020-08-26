@@ -14,17 +14,20 @@ body {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+ 
 }
 .OneContainer{
     width: 330px;
     display: flex;
-   flex-flow: column;
-   justify-content: center;
+    flex-flow: column;
+    justify-content: center;
+    background-color:#d6d4d5;
+   
 }
 .OneContainer .image, .OneContainer .header h3{
     display: flex;
     justify-content: center;
 }
 .OneContainer .header p.text{
-   text-align: center;
+    text-align: center;
 }
