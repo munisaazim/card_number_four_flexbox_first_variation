@@ -45,7 +45,7 @@ h3{
     font-size:20px;
     font-weight: bold;
 }
-.OneContainer .lastElement p.like{
+/* .OneContainer .lastElement p.like{
     margin-left: 15px;
     font-size: 15px;
 }
@@ -55,11 +55,51 @@ h3{
     font-size: 18px;
 }
 .OneContainer .lastElement p.shop{
-    position: relative;
+     position: relative;
     top: -35px;
-    right: -235px;
+    right: -235px; 
+    position: absolute;
+    top: -100px;
     text-transform: uppercase;
     color:rgb(255, 66, 150);
     font-size: 15px;
     font-weight: bold;
 }
+.lastElement    {
+    margin-bottom: -30px;
+}  */
+.lastElement ul{
+    list-style: none;
+    display: inline;
+    margin-left: -25px;
+} 
+.lastElement ul li {
+    display: inline-block;
+}
+.lastElement ul li.like .fa-heart{
+    color: rgb(239, 87, 108);
+    font-size: 19px;
+    margin-left: 1px;
+    margin-right:3px;
+}
+.lastElement ul li.like span.likeNumber{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15.5px;
+    color: grey;
+}
+.lastElement ul li.shop{
+    float: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:rgb(255, 66, 150);
+    font-weight: bold;
+    margin-right: 15px;
+}
+.lastElement{
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+
+
+   
