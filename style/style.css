@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
 html{
     padding:0;
     margin:0;
 }
-body {
-    font-family: 'Archivo', sans-serif;
-    font-family: 'Judson', serif;
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    color: grey;
 }
-
+h3{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-size: 17px;
+}
 /*Flexbox style*/
 .container{
     display: flex;
@@ -21,7 +26,7 @@ body {
     display: flex;
     flex-flow: column;
     justify-content: center;
-    background-color:#d6d4d5;
+    background-color:#F0F0F0;
    
 }
 .OneContainer .image, .OneContainer .header h3{
@@ -30,4 +35,13 @@ body {
 }
 .OneContainer .header p.text{
     text-align: center;
+}
+.OneContainer .header p.price{
+    margin: 10px 10px;
+}
+.OneContainer .header p.currentPrice{
+    margin: 10px 10px;
+    color: black;
+    font-size:20px;
+    font-weight: bold;
 }
