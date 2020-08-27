@@ -27,8 +27,8 @@ h3{
     flex-flow: column;
     justify-content: center;
     background-color:#F0F0F0;
-   
 }
+
 .OneContainer .image, .OneContainer .header h3{
     display: flex;
     justify-content: center;
@@ -40,8 +40,26 @@ h3{
     margin: 10px 10px;
 }
 .OneContainer .header p.currentPrice{
-    margin: 10px 10px;
+    margin: 10px 10px 20px 10px;
     color: black;
     font-size:20px;
+    font-weight: bold;
+}
+.OneContainer .lastElement p.like{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.fa-heart{
+    margin-right: 10px;
+    color: rgb(239, 87, 108);
+    font-size: 18px;
+}
+.OneContainer .lastElement p.shop{
+    position: relative;
+    top: -35px;
+    right: -235px;
+    text-transform: uppercase;
+    color:rgb(255, 66, 150);
+    font-size: 15px;
     font-weight: bold;
 }
