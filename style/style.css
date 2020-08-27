@@ -36,8 +36,12 @@ h3{
     display: flex;
     flex-flow: column;
     justify-content: center;
-    background-color:#F0F0F0;
+    background-color:rgb(235, 234, 232);
     margin-top: 30px ;
+}
+.OneContainer .image img{
+    width: 90%;
+    height: 400px;
 }
 
 .OneContainer .image, .OneContainer .header h3{
@@ -106,6 +110,7 @@ h3{
     color:rgb(255, 66, 150);
     font-weight: bold;
     margin-right: 15px;
+    cursor: pointer;
 }
 .lastElement{
     margin-bottom: 12px;
