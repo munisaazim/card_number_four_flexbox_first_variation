@@ -96,6 +96,7 @@ h3{
     font-size: 19px;
     margin-left: 1px;
     margin-right:3px;
+    cursor: pointer;
 }
 .lastElement ul li.like span.likeNumber{
     font-family: 'Montserrat', sans-serif;
@@ -110,7 +111,7 @@ h3{
     color:rgb(255, 66, 150);
     font-weight: bold;
     margin-right: 15px;
-    cursor: pointer;
+    cursor: git ;
 }
 .lastElement{
     margin-bottom: 12px;
