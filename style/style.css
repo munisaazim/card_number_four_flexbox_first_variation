@@ -37,7 +37,8 @@ h3{
     flex-flow: column;
     justify-content: center;
     background-color:rgb(235, 234, 232);
-    margin-top: 30px ;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 .OneContainer .image img{
     width: 90%;
@@ -97,6 +98,9 @@ h3{
     margin-left: 1px;
     margin-right:3px;
     cursor: pointer;
+}
+.lastElement ul li.like .fa-heart:hover{
+    color: #FF3030;
 }
 .lastElement ul li.like span.likeNumber{
     font-family: 'Montserrat', sans-serif;
